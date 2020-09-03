@@ -46,7 +46,7 @@ public class BoardReWriteCon extends HttpServlet {
         request.setAttribute("re_level", re_level);
  
         // BoardReWriteForm.jsp파일에 request, response에 담아놓은 자료들을 넘겨준다.
-        RequestDispatcher dis = request.getRequestDispatcher("MovieMain.jsp?center=BoardReWriteForm.jsp");
+        RequestDispatcher dis = request.getRequestDispatcher("MovieMain.jsp?center=BoardReWriteForm2.jsp");
         dis.forward(request, response);
     }
 }

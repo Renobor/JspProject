@@ -41,7 +41,7 @@ public class BoardDeleteCon extends HttpServlet {
  
         request.setAttribute("bean", bean);
  
-        RequestDispatcher dis = request.getRequestDispatcher("BoardDeleteForm.jsp");
+        RequestDispatcher dis = request.getRequestDispatcher("BoardDeleteForm2.jsp");
         dis.forward(request, response);
  
     }

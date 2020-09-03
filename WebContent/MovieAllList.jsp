@@ -14,7 +14,7 @@
 <table width="1000">
 	<tr height="100">
 	<td align="center" colspan="3">
-	<font size="5" color="gray">전체 렌트카</font></td>
+	<font size="5" color="gray">영화 리스트</font></td>
 	</tr>
 <%
 	

@@ -67,7 +67,7 @@
 		onclick="location.href='MovieMain.jsp?center=BoardRewriteForm.jsp?num=<%=bean.getNum()%>&ref=<%=bean.getRef()%>&re_step=<%=bean.getRe_step()%>&re_level=<%=bean.getRe_level()%>'">
 		<input type="button" value="수정하기" onclick="location.href='MovieMain.jsp?center=BoardUpdateForm.jsp?num=<%=bean.getNum()%>'">
 		<input type="button" value="삭제하기" onclick="location.href='MovieMain.jsp?center=BoardDeleteForm.jsp?num=<%=bean.getNum()%>'">
-		<input type="button" value="목록보기" onclick="location.href='RentcarMain.jsp?center=BoardList.jsp'">
+		<input type="button" value="목록보기" onclick="location.href='MovieMain.jsp?center=BoardList.jsp'">
 	</td>
 	</tr>	
 		

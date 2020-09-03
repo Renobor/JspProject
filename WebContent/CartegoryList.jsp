@@ -16,11 +16,11 @@
 	int category =Integer.parseInt(request.getParameter("category"));
 	String temp="";
 	if(category==1){
-		temp="소형";
+		temp="액션";
 	} else if(category==2) {
-		temp="중형";
+		temp="멜로";
 	} else if(category==3){
-		temp="대형";
+		temp="스릴러";
 	}
 	
 %>
@@ -29,7 +29,7 @@
 <table width="1000">
 	<tr height="100">
 	<td align="center" colspan="3">
-	<font size="5" color="gray">렌트카 종류</font></td>
+	<font size="5" color="gray">영화 종류</font></td>
 	</tr>
 <%
 	
@@ -52,7 +52,7 @@
 <% }%>
 		<td width="333" align="center">
 		<a href="MovieMain.jsp?center=MovieReserveInfo.jsp?no=<%=bean.getNo() %>">
-				<!-- center에 CarReserveInfo(하나에대한정보)를 no기준으로  bean에 no값을 얻어온다.  -->
+				<!-- center에 MovieReserveInfo(하나에대한정보)를 no기준으로  bean에 no값을 얻어온다.  -->
 		<img alt="" src="img/movie/<%=bean.getImg() %>" width="300" height="200">
 		</a><p>
 		<font size="3" color="gray"><b>차량명: <%=bean.getName() %></b></font></td>

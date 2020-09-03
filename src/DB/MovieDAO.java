@@ -277,21 +277,21 @@ public class MovieDAO {
 	 
 	        try {
 	        	
-	            String sql = "delete from Moviereserve where id=? and rday=?";
-	            pstmt = con.prepareStatement(sql);
-	            // ?에 값을 넣기
+	      String sql = "delete from Moviereserve where id=? and rday=?";
+	      pstmt = con.prepareStatement(sql);
+	      // ?에 값을 넣기
 	            
-	            pstmt.setString(1, id);
-	            pstmt.setString(2, rday);
-	            System.out.println("삭제완료");
-	            System.out.println(id);
-	            System.out.println(rday);
-	            pstmt.executeUpdate();
+	      pstmt.setString(1, id);
+	      pstmt.setString(2, rday);
+	      System.out.println("삭제완료");
+	      System.out.println(id);
+	      System.out.println(rday);
+	      pstmt.executeUpdate();
 	 
-	            con.close();
+	      con.close();
 	 
-	        } catch (Exception e) {
-	            e.printStackTrace();
+	      } catch (Exception e) {
+	      e.printStackTrace();
 	        }
 	 
 	    }

@@ -11,8 +11,6 @@
 </head>
 <body>
 
-
-
 <center>
 <h2>전체글보기</h2>
 

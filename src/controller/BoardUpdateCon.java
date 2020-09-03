@@ -42,7 +42,7 @@ public class BoardUpdateCon extends HttpServlet {
         // request에 데이터를 담기
         request.setAttribute("bean", bean);
  
-        RequestDispatcher dis = request.getRequestDispatcher("BoardUpdateForm.jsp");
+        RequestDispatcher dis = request.getRequestDispatcher("BoardUpdateForm2.jsp");
         dis.forward(request, response);
  
     }

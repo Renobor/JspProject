@@ -22,7 +22,7 @@
     %>
 	   <script type="text/javascript">
 	   
-	        alert("회원정보가 삭제되었습니다.")
+	        alert("예약정보가 삭제 되었습니다.")
 	        location.href="MovieMain.jsp?center=MovieReserveView.jsp"
 	   </script>
      

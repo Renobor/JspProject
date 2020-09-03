@@ -63,9 +63,11 @@
 		if(bean.getPop()==1)pop=5000;
 		int chiken=0;
 		if(bean.getPop()==1)chiken=7000;
+		int cola=0;
+		if(bean.getPop()==1)cola=3000;
 		int couple=0;
 		if(bean.getPop()==1)couple=10000;
-		int total=pop+chiken+couple+bean.getPrice();
+		int total=pop+cola+chiken+couple+bean.getPrice();
 		
 %>
 		<tr height="70">

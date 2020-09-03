@@ -72,7 +72,7 @@ public class BoardListCon extends HttpServlet {
         request.setAttribute("currentPage", currentPage);
  
         // BoardList를 통해 forward를 시킨다.
-        RequestDispatcher dis = request.getRequestDispatcher("MovieMain.jsp?center=BoardList.jsp");
+        RequestDispatcher dis = request.getRequestDispatcher("MovieMain.jsp?center=BoardList2.jsp");
         dis.forward(request, response);
  
     }

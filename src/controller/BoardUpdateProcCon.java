@@ -36,7 +36,7 @@ public class BoardUpdateProcCon extends HttpServlet {
     protected void reqPro(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         // 한글 처리
-        request.setCharacterEncoding("euc-kr");
+        request.setCharacterEncoding("utf-8");
  
         // 폼에서 넘어온 데이터를 받아줌
         // 비밀번호를 받아서 db에 저장된 비밀번호와 맞는지 확인해서

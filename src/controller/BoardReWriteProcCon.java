@@ -27,7 +27,7 @@ public class BoardReWriteProcCon extends HttpServlet {
             throws ServletException, IOException {
         reqPro(request, response);
     }
- 
+    
     protected void reqPro(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         // 빈클래스안에 받아온 데이터를 저장
